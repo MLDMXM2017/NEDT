@@ -18,7 +18,6 @@ matplotlib
 The preprocessing of the dataset and the training of NEDT are encapsulated in a file named main.py, which you can run directly to get the experimental results.
 
 ```bash
-cd data
 python python.py
 ```
 
