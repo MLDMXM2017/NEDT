@@ -18,7 +18,7 @@ matplotlib
 The preprocessing of the dataset and the training of NEDT are encapsulated in a file named main.py, which you can run directly to get the experimental results.
 
 ```bash
-python python.py
+python main.py
 ```
 
 The Results are stored in the results directory, with a csv file for each dataset that stores the results of the three-fold 5-fold cross-validation.
