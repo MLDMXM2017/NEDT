@@ -8,7 +8,6 @@ from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset
 
 from Datasets.DC.data_loader import load_data as load_data_DC
-from Datasets.DDI.function import load_data as load_data_DDI
 from Datasets.SL.data_loader_sl import read_data as load_data_SL
 
 
@@ -57,8 +56,6 @@ def load_data(in_dir, file_name):
         return load_data_DC(in_dir, feature_types=feature_types)
     elif data_name == 'SL':
         return load_data_SL(in_dir, feature_types=feature_types)
-    elif data_name == 'DDI':
-        return load_data_DDI(in_dir, feature_types=feature_types)
 
 
 def process_data(data, indice, random_state=42, device=None, task_type='clf', spl_num=2):
