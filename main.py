@@ -27,7 +27,7 @@ gpu_names = [0]
 n_gpu = len(gpu_names)
 
 # Datasets
-file_names = ['SL_exp']
+file_names = ['DC_exp', 'SL_exp']
 
 # Data directory
 ori_dir = 'Datasets'
