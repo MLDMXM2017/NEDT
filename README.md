@@ -1,5 +1,5 @@
 ## NEDT
-The source code of paper, "An Entity Pair-Based Neural Network Embedded Decision Tree for Biomedical Interaction Prediction".
+The source code of article, "NEDT: a novel feature pair-based neural network embedded decision tree for anti-tumor synergistic drug combination prediction".
 
 ## Requirements
 
@@ -21,6 +21,6 @@ The preprocessing of the dataset and the training of NEDT are encapsulated in a 
 python main.py
 ```
 
-The Results are stored in the results directory, with a csv file for each dataset that stores the results of the three-fold 5-fold cross-validation.
+The Results are stored in the results directory, with a csv file for each dataset that stores the results of 5-fold cross-validation.
 
 
